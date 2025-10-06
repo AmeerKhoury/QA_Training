@@ -1,0 +1,20 @@
+
+Bug ID: BUG001
+Title: Sent message not appearing in chat window
+Severity: Critical
+Priority: High
+Environment: Android 14, App version 1.2.0
+
+Steps to Reproduce:
+1. Log in as User A.
+2. Open chat with User B.
+3. Type a message and press Send.
+4. Observe the chat window.
+
+Expected Result:
+Message should appear instantly in the chat window with Sent status.
+
+Actual Result:
+Message disappears and does not show in the conversation.
+
+Attachment: screenshot_missing_message.png
