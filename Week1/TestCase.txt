@@ -1,0 +1,43 @@
+
+Test Case 1: Verify user can send a text message
+ID: TC001
+Module: Chat
+Priority: High
+Preconditions: User is logged in and connected to the internet
+
+Steps:
+1. Open the chat screen.
+2. Select an existing conversation or start a new one.
+3. Type a message in the text field.
+4. Tap the Send button.
+
+Expected Result:
+The message appears immediately in the chat window with the correct timestamp and Sent status.
+
+
+Test Case 2: Verify user can receive a text message
+ID: TC002
+Module: Chat
+Priority: High
+Preconditions: Another user sends a message to the logged-in user
+
+Steps:
+1. Wait for an incoming message.
+2. Observe the chat window.
+3. Check that the new message appears in the conversation.
+
+Expected Result:
+The message is displayed in real-time with the correct sender name, timestamp, and Received status.
+
+
+Test Case 3: Verify message status updates correctly
+ID: TC003
+Module: Chat
+Priority: Medium
+
+Steps:
+1. Send a text message.
+2. Observe the message delivery status.
+
+Expected Result:
+Status should update from Sent to Delivered to Seen (once the receiver reads it).

@@ -1,0 +1,16 @@
+
+Chat Functionality
+
+Feature: Send and Receive Text Messages
+Objective: Ensure users can successfully send and receive text messages in real time.
+
+Scope:
+- Message sending and receiving
+- Delivery and seen status
+- Real-time updates
+- Network handling
+
+Out of Scope:
+- Voice messages
+- Media attachments
+
